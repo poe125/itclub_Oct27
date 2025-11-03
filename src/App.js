@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import MicWebSocket from './MicWebSocket';
+import logo from './logo.svg';
 
 function App() {
   return (
     <div className="App">
-      <h1>マイク入力 + WebSocket デモ</h1>
-      <MicWebSocket />
+      <header className="App-header">
+        <h1>Hello World</h1>
+        <p>This is a react website</p>
+      </header>
     </div>
   );
 }
